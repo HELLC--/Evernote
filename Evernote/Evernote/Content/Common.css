@@ -1,0 +1,75 @@
+﻿@font-face {
+    font-family: 'lato-regular';
+    src: url('../fonts/Lato/lato-regular.eot') format('embedded-opentype');
+    src: local('Lato Regular'), local('lato-regular'), url('../fonts/Lato/lato-regular.woff') format('woff'), url('../fonts/Lato/lato-regular.ttf') format('truetype'), url('../fonts/Lato/lato-regular.svg#lato-regular') format('svg');
+}
+
+@font-face {
+    font-family: 'NotoSansHans-Regular';
+    src: url('../fonts/Source Han Sans Simplified Chinese/NotoSansHans-Regular.otf') format('opentype');
+}
+
+body {
+    background: #ffffff;
+    font-family: 'lato-regular', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #313131;
+    /* line-height: 28px; */
+    text-align: center;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.full-screen {
+    width: 100%;
+    height: 100px;
+    padding-top: 120px;
+}
+
+.solid-color {
+    min-height: 900px;
+    background: #121a20;
+}
+
+.image-person {
+    background: none;
+    padding: 60px 60px 20px;
+}
+
+.intro-section {
+    margin: auto;
+}
+
+    .intro-section .intro {
+        color: #ffffff;
+        margin-bottom: 36px;
+        line-height: 3.9rem;
+    }
+
+    .intro-section h5 {
+        color: #ffffff;
+    }
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 4.688rem;
+}
+
+h1, h2 {
+    font-family: 'lato-regular', sans-serif;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 300;
+}
