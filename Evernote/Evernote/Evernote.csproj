@@ -133,6 +133,7 @@
     <Content Include="fonts\Source Han Sans Simplified Chinese\NotoSansHans-Regular.otf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Icon.png" />
+    <Content Include="Images\person_photo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\flatui-radiocheck.js" />

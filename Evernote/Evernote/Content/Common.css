@@ -42,8 +42,21 @@ body {
 
 .image-person {
     background: none;
-    padding: 60px 60px 20px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #ECF0F1;
 }
+
+    .image-person img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 7px solid #2ECC71;
+    }
 
 .intro-section {
     margin: auto;
